@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbwT9-VeFVOitzmBYdo7l66_4rQCu3q8gWd6ZJYvCnijMTWovzGIVqm3sWRghWW49sKN3w/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycby0soowYz0sF1jKiZgrB-cXeYa805jnSGUH1gETnAXElCdaWRpIpqrM1Sfog7rpaL22mg/exec";
 
 const deviceId = localStorage.getItem("device_id") ||
   (() => {
@@ -67,5 +67,6 @@ scanner.start(
     sendScan(decodedText.trim());
   }
 );
+
 
 
