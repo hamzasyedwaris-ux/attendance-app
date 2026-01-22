@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #1f2937;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+#scanner {
+  max-width: 400px;
+  margin: auto;
+}
+
+#message {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
