@@ -67,3 +67,4 @@ scanner.start(
     sendScan(decodedText.trim());
   }
 );
+
